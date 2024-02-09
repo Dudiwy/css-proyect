@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+    <title>DudiRestaurante</title>
+  </head>
+  <body>
+    <header>
+      <img src="https://www.theviewshotels.pt/wp-content/uploads/sites/2065/nggallery/headers//TVB-Header-Restaurantes-e-Bares2.jpg" 
+      width="570" alt="Comich">
+      <h1><i>DudiRestaurante</i></h1>
+    </header>
+    <main>
+      <nav>
+        <h2>Navecación</h2>
+        <ul>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href='#ordenar'>Ordenar</a></li>
+        </ul>
+      <nav>
+      <section id='menu'>
+        <h2 style='text-align: center;'>Menú</h2>
+        <article>
+          <hr>
+          <h3>Guajolote</h3>
+          <img src='https://lossaboresdemexico.com/wp-content/uploads/2012/12/Receta-Guajolote-.jpg' alt='Un guajolote'>
+          <br>
+          <i>$240</i>
+          <figcaption>Un guajolote bien rico como la ves mi todo tibio</figcaption>
+          <br>
+        </article>
+        <hr>
+        <article>
+          <h3>Tamalito</h3>
+          <img src='https://cdn.aarp.net/content/dam/aarp/food/recipes/2017/12/1140-tamales-stack-food-gods-esp.jpg'>
+          <br>
+          <i>$50</i>
+          <figcaption>Un tamalito calientito</figcaption>
+          <br>
+        </article>
+        <hr>
+        <article>
+          <h3>Un platano amarillo</h3>
+          <img src="https://www.dmass.com.mx/assets/images/platano-986x723.png">
+          <br>
+          <i>$10</i>
+          <figcaption>Amarillo amarillo amarillo los platanos, <span>fuifuifufifufifuiiii</span></figcaption>
+        </article>
+        <hr>
+      </section>
+      <section id='ordenar'>
+        <h2 style='text-align:center;'>Ordenar</h2>
+        <form>
+          <h3>Producto/Cantidad/Complementos</h3>
+          <!--correction of previous version: Label-->
+          <label for="guajolote">Guajolote: </label>/<input type='number' min="1" max="10">/<textarea placeholder="Cositas extra"></textarea><br>
+          <label for="tamales"> Tamales: </label>/<input type='number' min="1" max="10">/<textarea placeholder="Cositas extra"></textarea><br>
+          <label for="platanos">Platanos: </label>/<input type='number' min="1" max="10">/<textarea placeholder="Cositas extra"></textarea><br>
+          <hr>
+          <!--correction of previous version: The implementation of checkboxex and radio buttons-->
+          <label><h3>Productos extra:</h3></label>
+          <input type='checkbox' name='extra'>Refresco<br>
+          <input type='checkbox' name='extra'>Papas<br>
+          <input type='checkbox' name='extra'>Queso<br>
+          <input type='checkbox' name='extra'>nuggets<br>
+          <hr>
+          <label><h3>Tipo de envio:</h3></label>
+          <input type="radio" name='envio'>Uber eats<br>
+          <input type="radio" name='envio'>Didi food<br>
+          <input type="radio" name='envio'>Door dash<br>
+          <input type="radio" name='envio'>Instacart<br>
+          <hr>
+          <input type ='submit'>
+        </form>
+      </section>
+    </main> 
+  </body>
+  <footer>
+    <h3>Gracias por comprar aqui GUAPO 7u7. Vuelve pronto.</h3>
+    <br>
+    Dudiwy Peralta©  <br>
+    2024 <br>
+    Codedex curso
+  </footer>
+</html>
